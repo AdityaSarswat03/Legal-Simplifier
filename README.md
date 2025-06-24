@@ -37,28 +37,28 @@ legal-simplifier/
 
 ### 1. Clone the Repo
 git clone https://github.com/AdityaSarswat03/legal-simplifier.git
-cd legal-simplifier
+
 
 2. Create Virtual Environment
-python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
+- python -m venv venv
+- source venv/bin/activate  # For Windows: venv\Scripts\activate
 
 3. Install Dependencies
-pip install -r backend/requirements.txt
-pip install streamlit requests python-dotenv
+- pip install -r backend/requirements.txt
+- pip install streamlit requests python-dotenv
 
 4. Set Up Environment Variables
-Create a .env file in the root with:
-GEMINI_API_KEY=your_google_gemini_api_key_here
+- Create a .env file in the root with:
+- GEMINI_API_KEY=your_google_gemini_api_key_here
 
 
 ▶️ Running the App
 1. Start FastAPI Backend
-uvicorn backend.main:app --reload
-This will start the backend at http://127.0.0.1:8000.
+- uvicorn backend.main:app --reload
+- This will start the backend at http://127.0.0.1:8000.
 
 2. Start Streamlit Frontend
-In another terminal:
-streamlit run frontend/app.py
+- In another terminal:
+- streamlit run frontend/app.py
 
          The app will open in your browser.
