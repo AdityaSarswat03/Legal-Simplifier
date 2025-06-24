@@ -18,12 +18,11 @@
 
 ## 📁 Project Structure
 
-legal-simplifier/
-1. Backend
+1. backend
 - main.py # FastAPI backend with PDF & chat endpoints
 - gemini_ai.py # Backend dependencies
 
-2. frontend/
+2. frontend
 - app.py # Streamlit UI for chat + PDF + multilingual support
 
 3. .env # (not committed) Contains GEMINI_API_KEY
