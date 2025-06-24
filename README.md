@@ -19,18 +19,20 @@
 ## 📁 Project Structure
 
 legal-simplifier/
-│
-├── backend/
-│ ├── main.py # FastAPI backend with PDF & chat endpoints
-│ └── requirements.txt # Backend dependencies
-│
-├── frontend/
-│ └── app.py # Streamlit UI for chat + PDF + multilingual support
-│
-├── .env # (not committed) Contains GEMINI_API_KEY
-├── .gitignore # Ignore temp files, virtual env, etc.
-├── README.md # Project documentation
-└── requirements.txt # Combined requirements (optional)
+1. Backend
+- main.py # FastAPI backend with PDF & chat endpoints
+- gemini_ai.py # Backend dependencies
+
+2. frontend/
+- app.py # Streamlit UI for chat + PDF + multilingual support
+
+3. .env # (not committed) Contains GEMINI_API_KEY
+
+4. .gitignore # Ignore temp files, virtual env, etc.
+
+5. README.md # Project documentation
+
+6. requirements.txt # Combined requirements (optional)
 
 
 ## 📦 Installation & Setup
@@ -44,8 +46,8 @@ git clone https://github.com/AdityaSarswat03/legal-simplifier.git
 - source venv/bin/activate  # For Windows: venv\Scripts\activate
 
 3. Install Dependencies
-- pip install -r backend/requirements.txt
-- pip install streamlit requests python-dotenv
+- pip3 install -r backend/requirements.txt
+- pip3 install streamlit requests python-dotenv
 
 4. Set Up Environment Variables
 - Create a .env file in the root with:
