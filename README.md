@@ -36,7 +36,7 @@ legal-simplifier/
 ## 📦 Installation & Setup
 
 ### 1. Clone the Repo
-git clone https://github.com/yourusername/legal-simplifier.git
+git clone https://github.com/AdityaSarswat03/legal-simplifier.git
 cd legal-simplifier
 
 2. Create Virtual Environment
