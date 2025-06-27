@@ -52,7 +52,8 @@ if option == "💬 Type Text":
         with st.spinner("Simplifying..."):
             try:
                 res = requests.post(
-                    "http://127.0.0.1:8000/chat/",
+                    "https://legal-simplifier.onrender.com/chat/"
+,
                     data={
                         "message": user_input,
                         "language": language,
@@ -78,7 +79,7 @@ elif option == "📄 Upload PDF":
             with st.spinner("Reading and simplifying PDF..."):
                 try:
                     res = requests.post(
-                        "http://127.0.0.1:8000/chat-pdf/",
+                        "https://legal-simplifier.onrender.com/chat-pdf/",
                         data={
                             "language": language,
                             "session_id": st.session_state.session_id
